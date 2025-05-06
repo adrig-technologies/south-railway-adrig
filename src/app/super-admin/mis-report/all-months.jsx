@@ -483,11 +483,11 @@ const AllMonths = () => {
             &lt; Prev Week
           </button> */}
 
-          <span className="p-5 bg-white border border-gray-300 rounded shadow">
+          {/* <span className="p-5 bg-white border border-gray-300 rounded shadow">
             {"For a period from"} <u> {formatDate(weekDates.start)}</u>{" "}
             {"and to "}
             <u>{formatDate(weekDates.end)}</u>
-          </span>
+          </span> */}
 
           {/* <button
             onClick={() => setWeekOffset((prev) => prev + 1)}
